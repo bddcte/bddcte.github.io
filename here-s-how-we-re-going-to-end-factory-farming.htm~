@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Liberazione Animale, Peter Singer</title>
+    <title>Here’s how we’re going to end factory farming</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,11 +18,13 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Liberazione Animale, Peter Singer</h1>
+    <h1>Here’s how we’re going to end factory farming</h1>
     <center>
-       <img src="peter-singer.png" class="img-responsive"> 
+      <iframe src="https://player.vimeo.com/video/51888087?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/51888087">Here&#039;s how we&#039;re going to end factory farming.</a> from <a href="https://vimeo.com/animalsaustralia">Animals Australia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </center>
-
+    <p><a href="https://vimeo.com/51888087">Source</a></p>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
