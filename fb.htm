@@ -28,7 +28,7 @@ FB.login(function(){
 
 FB.api('/me/feed', 'post', {message: 'Piazzata sotto i portici di Insolito Gusto a #Novara. #EventiNovara', link: "https://www.facebook.com/events/927227160732421/"});
 
-
+setTimeout(continueExecution, 10000) //wait ten seconds before continuing
 
 FB.api('/me/feed', 'post', {message: 'Prova1'});
 
