@@ -26,11 +26,13 @@
 function myFacebookLogin() {
 FB.login(function(){
 
-FB.api('/me/feed', 'post', {message: 'Piazzata sotto i portici di Insolito Gusto a #Novara. #EventiNovara', link: "https://www.facebook.com/events/927227160732421/"});
-
-setTimeout(continueExecution, 10000) //wait ten seconds before continuing
-
-FB.api('/me/feed', 'post', {message: 'Prova1'});
+FB.api('/me/feed', 'post', {message: "Raccolta fondi per i gatti della villeta a #Novara. #EventiNovara", link: "https://www.facebook.com/events/1119454811465250/"});
+FB.api('/me/feed', 'post', {message: "Piazzata sotto i portici di Insolito Gusto a #Novara. #EventiNovara", link: "https://www.facebook.com/events/927227160732421/"});
+FB.api('/me/feed', 'post', {message: "Cena benefica a #Novara a favore di Amici dei gatti ONLUS. #EventiNovara", link: "https://www.facebook.com/events/621611614665305/"});
+FB.api('/me/feed', 'post', {message: "Vegan Life Festival a #Novara. #EventiNovara", link: "https://www.facebook.com/events/1714907062115992/"});
+FB.api('/me/feed', 'post', {message: "PagliOne Summer Fest a #Novara. #EventiNovara", link: "https://www.facebook.com/events/272914999758812/"});
+FB.api('/me/feed', 'post', {message: "Raccolta fondi per i gatti di ANAG a #Novara. #EventiNovara", link: "https://www.produzionidalbasso.com/project/emergenza-gatti-a-novara/"});
+FB.api('/me/feed', 'post', {message: "Non scindere la realtà dalla fantasia. L'occasione per unire il virtuale al reale con Anaz Onlus a #Novara. Il 10 settembre preparati alla notte bianca più stupefacente! #EventiNovara", link: "https://www.facebook.com/events/133637410411493/"});
 
 }, {scope: 'publish_actions'});
 }
