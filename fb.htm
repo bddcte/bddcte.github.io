@@ -1,3 +1,8 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -21,7 +26,7 @@
 function myFacebookLogin() {
 FB.login(function(){
 
-FB.api('/me/feed', 'post', {message: 'Prova'});
+FB.api('/me/feed', 'post', {message: 'Piazzata sotto i portici di Insolito Gusto a #Novara. #EventiNovara', link: "https://www.facebook.com/events/927227160732421/"});
 
 FB.api('/me/feed', 'post', {message: 'Prova1'});
 
@@ -29,3 +34,5 @@ FB.api('/me/feed', 'post', {message: 'Prova1'});
 }
 </script>
 <button onclick="myFacebookLogin()">Login with Facebook</button>
+</body>
+</html>
