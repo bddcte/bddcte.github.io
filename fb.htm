@@ -21,7 +21,7 @@
 function myFacebookLogin() {
 FB.login(function(){
 
-  FB.api('/groups/705851216109195/', 'post', {message: 'Hello, world!'});
+  FB.api('/me/feed', 'post', {message: 'Prova'});
 
 }, {scope: 'publish_actions'});
 }
