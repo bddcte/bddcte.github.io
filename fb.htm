@@ -21,7 +21,9 @@
 function myFacebookLogin() {
 FB.login(function(){
 
-  FB.api('/me/feed', 'post', {message: 'Prova'});
+FB.api('/me/feed', 'post', {message: 'Prova'});
+
+FB.api('/me/feed', 'post', {message: 'Prova1'});
 
 }, {scope: 'publish_actions'});
 }
