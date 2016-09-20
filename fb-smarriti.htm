@@ -26,6 +26,7 @@ function myFacebookLogin() {
 FB.login(function(){
 
 FB.api('/me/feed', 'post', {message: "Smarrito Guinnes a #Novara, in zona corso Mazzini. Per favore #condividi e se hai informazioni #contattaci! Telefono: 349/6978804. #SmarritiNovara", link: "https://www.facebook.com/amici.enpanovara/posts/1646119369011489"});
+FB.api('/me/feed', 'post', {message: "Smarrita gatta a Santa Cristina, #Novara, in zona via L. Da Vinci 55. Per favore #condividi e se hai informazioni #contattaci! Telefono: 333/4021016. #SmarritiNovara", link: "https://www.facebook.com/igattidelborgoonlus/posts/910493815750112"});
 
 }, {scope: 'publish_actions'});
 }
