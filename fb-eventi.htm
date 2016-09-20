@@ -26,6 +26,8 @@ function myFacebookLogin() {
 FB.login(function(){
 
 FB.api('/me/feed', 'post', {message: "Aiutiamo Micia? Micia è una gattina di 8 mesi recuperata sull'asfalto da Francesca, vista la gravità della situazione, l' ha subito fatta ricoverare. #EventiNovara", link: "https://www.facebook.com/events/1119454811465250/"});
+FB.api('/me/feed', 'post', {message: "Festival vegan antispecista a Galliate, #Novara. #EventiNovara", link: "https://www.facebook.com/veginfolk/"});
+
 
 }, {scope: 'publish_actions'});
 }
