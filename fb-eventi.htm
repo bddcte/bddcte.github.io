@@ -25,9 +25,11 @@
 function myFacebookLogin() {
 FB.login(function(){
 
-FB.api('/me/feed', 'post', {message: "Aiutiamo Micia? Micia è una gattina di 8 mesi recuperata sull'asfalto da Francesca, vista la gravità della situazione, l' ha subito fatta ricoverare. #EventiNovara", link: "https://www.facebook.com/events/1119454811465250/"});
+FB.api('/me/feed', 'post', {message: "Aiutiamo Micia? Micia è una gattina di 8 mesi recuperata sull'asfalto da Francesca, vista la gravità della situazione, l' ha subito fatta ricoverare. #EventiNovara", link: "https://www.facebook.com/events/183904955374536/"});
 FB.api('/me/feed', 'post', {message: "Festival vegan antispecista a Galliate, #Novara. #EventiNovara", link: "https://www.facebook.com/veginfolk/"});
 FB.api('/me/feed', 'post', {message: "Cena vegan benefica a buffet ad Arona, #Novara. #EventiNovara", link: "https://www.facebook.com/681463738560296/photos/a.681510278555642.1073741825.681463738560296/1316853685021295/?type=3&theater"});
+FB.api('/me/feed', 'post', {message: "Evento che intende promuovere una campagna di sensibilizzazione contro l'abbandono ed il maltrattamento degli animali a Caltignaga, frazione Morghengo, #Novara. #EventiNovara", link: "https://www.facebook.com/igattidelborgoonlus/posts/911136712352489:0"});
+FB.api('/me/feed', 'post', {message: "Doppio appuntamento per raccogliere tante pappe per gli amici pelosi. Vi aspettiamo numerosi! A #Novara. #EventiNovara", link: "https://www.facebook.com/igattidelborgoonlus/posts/911376002328560"});
 
 }, {scope: 'publish_actions'});
 }
