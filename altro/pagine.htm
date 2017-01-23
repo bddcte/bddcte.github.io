@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '345223892351586',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+function myFacebookLogin() {
+FB.login(function(){
+
+
+FB.api('/me/feed', 'post', {message: "Apriti Sedano Ristorante Vegano \n \n Cucina semplice e priva di derivati animali. La produzione è stagionale e per la quasi totalità bio, etica ed a km zero. \n \n Ad Arona, #Novara, via Roma 89. Tel.: 0322-341010", link: "https://www.facebook.com/cleliaveg/"});
+
+FB.api('/me/feed', 'post', {message: "Il Rifugio Miletta \n \n Si prende cura di animali in difficoltà e promuove una cultura del rispetto dei loro diritti. \n \n Ad Agrate Conturbia, #Novara, via Visconti 31. Tel.: 346-3132222", link: "https://www.facebook.com/ilrifugiomiletta/"});
+
+FB.api('/me/feed', 'post', {message: "Veg Kosmetik \n \n Superfoods e cosmesi. Standard elevati ed ecologia non sono fini a se stessi. Gli ingredienti sono il risultato di procedimento appositamente sviluppati per ottenere la massima resa. Made in Austria. \n \n A #Novara. Tel.: 345-4676814", link: "https://www.facebook.com/vegkosmetic/"});
+
+FB.api('/me/feed', 'post', {message: "Black Hole \n \n Birre artigianali italiane ed estere, alla spina o in bottiglia. \n \n A #Novara, viale Volta, 56D", link: "https://www.facebook.com/blackholeristopub/"});
+
+FB.api('/me/feed', 'post', {message: "Il tuo aiuto è prezioso. Grazie. :) \n \n Per favore considera http://vegfacile.info", link: "https://www.facebook.com/214997765588466/photos/a.214998198921756.1073741826.214997765588466/239950929759816/"});
+
+FB.api('/me/feed', 'post', {message: "Rifugio Italia Ukraine \n \n Una realtà per mettere al sicuro randagi ucraini e toglierli dalle mani insanguinate dei dog hunters. IL tuo aiuto è prezioso. \n \n Numero carta Postepay 5333171029383284. \n \n Intestata a Maria Cecilia Donnini. \n \n Codice fiscale: DNNMCC50E41G713M", link: "https://www.facebook.com/Rifugio-Italia-Ukraine-828245003881821/"});
+
+
+}, {scope: 'publish_actions'});
+}
+</script>
+<button onclick="myFacebookLogin()">Login with Facebook</button>
+</body>
+</html>
