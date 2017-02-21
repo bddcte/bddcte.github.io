@@ -5,7 +5,6 @@ margin-right: 5%;
 margin-left: 10%;
 font-family: CM;
 font-weight: normal;
-
 }
 
 h2 {
@@ -13,7 +12,6 @@ margin-right: 5%;
 margin-left: 10%;
 font-family: CM;
 font-weight: normal;
-
 }
 
 h3 {
@@ -21,7 +19,27 @@ margin-right: 5%;
 margin-left: 10%;
 font-family: CM;
 font-weight: normal;
+}
 
+h4 {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+font-weight: normal;
+}
+
+h5 {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+font-weight: normal;
+}
+
+h6 {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+font-weight: normal;
 }
 
 p {
