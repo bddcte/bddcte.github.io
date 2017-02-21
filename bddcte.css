@@ -1,0 +1,55 @@
+@font-face { font-family: CM; src: url('cmunrm.otf'); }
+
+h1 {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+font-weight: normal;
+
+}
+
+h2 {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+font-weight: normal;
+
+}
+
+h3 {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+font-weight: normal;
+
+}
+
+p {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+}
+
+ul {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+}
+
+il {
+margin-right: 5%;
+margin-left: 10%;
+font-family: CM;
+}
+
+img {
+margin-right: 5%;
+margin-left: 10%;
+width: 50%;
+height: auto;
+}
+
+math {
+margin-right: 5%;
+margin-left: 10%;
+}
