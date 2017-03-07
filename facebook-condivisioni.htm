@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '345223892351586',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+function myFacebookLogin() {
+FB.login(function(){
+
+
+FB.api('/me/feed', 'post', {message: "Zeus \n \n Cerca casa a #Novara. Tel.: 0321-458149 \n \n Per favore non comprare, adotta! :)", link: "https://www.facebook.com/amici.enpanovara/photos/a.1420450761578352.1073741837.1416998721923556/1713128322310593/"});
+
+FB.api('/me/feed', 'post', {message: "Ghibli  \n \n Cerca casa a #Novara. Tel.: 0321-458149 \n \n Per favore non comprare, adotta! :)", link: "https://www.facebook.com/amici.enpanovara/photos/a.1420450761578352.1073741837.1416998721923556/1715240612099364/"});
+
+FB.api('/me/feed', 'post', {message: "Ozzy \n \n Cerca casa a #Novara. Tel.: 0321-458149 \n \n Per favore non comprare, adotta! :)", link: "https://www.facebook.com/amici.enpanovara/photos/a.1420450761578352.1073741837.1416998721923556/1715239545432804/"});
+
+FB.api('/me/feed', 'post', {message: "Bach \n \n Cerca casa a #Novara. Tel.: 0321-458149 \n \n Per favore non comprare, adotta! :)", link: "https://www.facebook.com/amici.enpanovara/photos/a.1420450761578352.1073741837.1416998721923556/1715239038766188/"});
+
+FB.api('/me/feed', 'post', {message: "Orlando \n \n Cerca casa a #Novara. Tel.: 0321-458149 \n \n Per favore non comprare, adotta! :)", link: "https://www.facebook.com/amici.enpanovara/photos/a.1417558228534272.1073741834.1416998721923556/1682997475323678/"});
+
+}, {scope: 'publish_actions'});
+}
+</script>
+<button onclick="myFacebookLogin()">Login with Facebook</button>
+</body>
+</html>
