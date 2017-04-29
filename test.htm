@@ -24,10 +24,19 @@
 
 function myFacebookLogin() {
 FB.login(function(){
-FB.api('/me/feed', 'post', {message: "prova"});
+
+FB.api(
+    "/1416998721923556/feed",
+    function (response) {
+      if (response && !response.error) {
+        /* handle the result */
+      }
+    }
+);
 
 }, {scope: 'publish_actions'});
 }
+
 </script>
 <button onclick="myFacebookLogin()">Login with Facebook</button>
 </body>
